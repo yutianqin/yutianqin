@@ -1,5 +1,6 @@
 <h1 align="left">Hi😃, this is Yutian Qin</h1>
 <h3 align="left">A passionate graduate student from University of Utah majoring Software Development.</h3>
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif">
 
 - 🌱 I’m currently learning **Database Systems and Applications**
 
