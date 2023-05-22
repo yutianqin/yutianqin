@@ -1,0 +1,376 @@
+
+
+
+
+Interp:
+//----------------------------------------------------------------------------------------------------------------------
+
+PTR(Val) VarExpr::interp(PTR(Env) env) {
+    return env->lookup(this->str);
+//    throw runtime_error( "Error occurs -> CANNOT interpret value of \"Variable\"" );
+}
+
+PTR(Val) LetExpr::interp(PTR(Env) env) {
+    PTR(Val) rhs_val = rhs->interp(env);
+    PTR(Env) new_env = NEW(ExtendedEnv)(lhs, rhs_val, env);
+    return body->interp(new_env);
+//    PTR(Val) rhs_val = rhs->interp();
+//    return body->subst(lhs,rhs_val->to_expr())->interp();
+}
+
+
+
+
+
+Subst:
+//----------------------------------------------------------------------------------------------------------------------
+
+/**
+ * Everywhere that the expression (whose subst method is called) contains a variable matching the string,
+ * the result Expr* should have the given replacement, instead.
+ * @param str
+ * @param expr
+ * @return Expr*
+ */
+//PTR(Expr) NumExpr::subst(std::string str, PTR(Expr) expr) {
+//    return NEW(NumExpr)(rep);
+//}
+
+/**
+ * Everywhere that the expression (whose subst method is called) contains a variable matching the string,
+ * the result Expr* should have the given replacement, instead.
+ * @param str
+ * @param expr
+ * @return Expr*
+ */
+//PTR(Expr) AddExpr::subst(std::string str, PTR(Expr) expr) {
+//    return NEW(AddExpr)(lhs->subst(str, expr),
+//                        rhs->subst(str, expr));
+//}
+
+/**
+ * Everywhere that the expression (whose subst method is called) contains a variable matching the string,
+ * the result Expr* should have the given replacement, instead.
+ * @param str
+ * @param expr
+ * @return Expr*
+ */
+//PTR(Expr) MultExpr::subst(std::string str, PTR(Expr) expr) {
+//    return NEW(MultExpr)(lhs->subst(str, expr),
+//                         rhs->subst(str, expr) );
+//}
+
+/**
+ * Everywhere that the expression (whose subst method is called) contains a variable matching the string,
+ * the result Expr* should have the given replacement, instead.
+ * @param str
+ * @param expr
+ * @return Expr*
+ */
+//PTR(Expr) VarExpr::subst(std::string string, PTR(Expr) expr) {
+//    if ( this->str == string ) return expr;
+//    else return NEW(VarExpr)(this->str);
+//}
+
+//PTR(Expr) LetExpr::subst(std::string str, PTR(Expr)expr) {
+//    if ( this->lhs == str )
+//        return NEW(LetExpr)(str,
+//                            this->rhs->subst( str, expr ),
+//                             body);
+//    else return NEW(LetExpr)(lhs,
+//                            this->rhs->subst( str, expr ),
+//                            body->subst(str, expr ));
+//}
+
+//PTR(Expr) IfExpr::subst(std::string str, PTR(Expr)expr) {
+//    return NEW(IfExpr)(this->test_part->subst(str, expr),
+//                       this->then_part->subst(str, expr),
+//                      this->else_part->subst(str, expr));
+//}
+
+//PTR(Expr) BoolExpr::subst(std::string, PTR(Expr)expr) {
+//    return NEW(BoolExpr)(this->value);
+////    throw std::runtime_error("subst of bool expr");
+//}
+
+//PTR(Expr) EqExpr::subst(std::string str, PTR(Expr)expr) {
+//    return NEW(EqExpr)(lhs->subst(str, expr), rhs->subst(str, expr) );
+//}
+
+//PTR(Expr) FunExpr::subst(std::string str, PTR(Expr)expr) {
+//    if (this->formal_arg == str) {
+//        return NEW(FunExpr)(formal_arg, body);
+//    }
+//    else return NEW(FunExpr)(this->formal_arg,this->body->subst(str,expr));
+//}
+
+//PTR(Expr) CallExpr::subst(std::string str, PTR(Expr)expr) {
+//    return NEW(CallExpr)(this->to_be_called->subst(str, expr),
+//                          this->actual_arg->subst(str, expr));
+//}
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------------
+TEST_CASE( "subst" )
+{
+    CHECK((NEW(AddExpr)(NEW(VarExpr)("x"), NEW(NumExpr)(7)))
+                   ->subst("x", NEW(VarExpr)("y"))
+                   ->equals(NEW(AddExpr)(NEW(VarExpr)("y"), NEW(NumExpr)(7))) == true );
+
+    CHECK(((NEW(NumExpr)(7))
+            ->subst("x", NEW(VarExpr)("y")))
+                   ->equals(NEW(NumExpr)(7)) == true );
+
+    CHECK((NEW(VarExpr)("x"))
+                   ->subst("W", NEW(VarExpr)("y"))
+                   ->equals(NEW(VarExpr)("x")) == true );
+
+    CHECK((NEW(AddExpr)(NEW(NumExpr)(8), NEW(NumExpr)(2)))
+                   ->subst("x", NEW(VarExpr)("y"))
+                   ->equals(NEW(AddExpr)(NEW(NumExpr)(8), NEW(NumExpr)(2))) == true );
+
+    CHECK((NEW(MultExpr)(NEW(VarExpr)("h"), NEW(NumExpr)(2)))
+                   ->subst("h", NEW(VarExpr)("y"))
+                   ->equals(NEW(MultExpr)(NEW(VarExpr)("y"), NEW(NumExpr)(2))) == true );
+}
+//----------------------------------------------------------------------------------------------------------------------
+
+
+
+// * has_variable() -> check if the expression is a variable or contains a variable
+/**
+ * Check whether this NumExpr object is a variable
+ * @return
+ */
+bool NumExpr::has_variable() { return false; }
+
+/**
+ * The result should be true if the expression is a variable or contains a variable, false otherwise.
+ * @return bool
+ */
+bool AddExpr::has_variable() {
+    VarExpr *var = dynamic_cast<VarExpr*>(this);
+    if ( var != nullptr ) return true;
+    else return this->lhs->has_variable() || this->rhs->has_variable();
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+/**
+ * The result should be true if the expression is a variable or contains a variable, false otherwise.
+ * @return bool
+ */
+bool MultExpr::has_variable() {
+    VarExpr *var = dynamic_cast<VarExpr*>(this);
+    if ( var != nullptr ) return true;
+    else return this->lhs->has_variable() || this->rhs->has_variable();
+}
+
+/**
+ * The result should be true if the expression is a variable or contains a variable, false otherwise.
+ * @return bool
+ */
+bool VarExpr::has_variable() {
+    VarExpr *var = dynamic_cast<VarExpr*>(this);
+    return var != nullptr;
+}
+
+bool LetExpr::has_variable() {
+    VarExpr *var = dynamic_cast<VarExpr*>( body );
+    if ( var != nullptr ) return true;
+    else return this->body->has_variable();
+}
+
+bool IfExpr::has_variable() {
+    VarExpr *var = dynamic_cast<VarExpr*>(this);
+    if ( var != nullptr ) return true;
+    else return this->test_part->has_variable() ||
+                this->then_part->has_variable() ||
+                this->else_part->has_variable();
+}
+
+bool BoolExpr::has_variable() {
+    return false;
+}
+
+bool EqExpr::has_variable() {
+    auto *var = dynamic_cast<VarExpr*>(this);
+    if ( var != nullptr ) return true;
+    else return this->lhs->has_variable() || this->rhs->has_variable();
+}
+
+bool FunExpr::has_variable() {
+    return false;
+}
+
+bool CallExpr::has_variable() {
+    return false;
+}
+
+
+SECTION( "has_variable" )
+    {
+        CHECK( !(new AddExpr(new NumExpr(1), new NumExpr(2)))->has_variable() );
+        CHECK( !(new NumExpr(0))->has_variable() ); // Should be false. Int is not variable
+        CHECK((new MultExpr(new NumExpr(3), new VarExpr("x")))->has_variable() == true );
+        CHECK((new AddExpr(new NumExpr(3), new VarExpr("x")))->has_variable() == true );
+        CHECK((new VarExpr("x"))->has_variable() == true );
+    }
+
+SECTION( "NumExpr has_variable() tests" )
+    {
+        CHECK_FALSE( (new NumExpr
+                (0))->has_variable());
+        CHECK_FALSE( (new NumExpr
+                (123456789))->has_variable());
+        CHECK_FALSE( (new NumExpr
+                (-11223344))->has_variable());
+    }
+
+    TEST_CASE( "Kevin Tests has_variable() test cases" )
+    {
+        SECTION( "VarExpr has_variable() tests" )
+        {
+            CHECK((new VarExpr("X"))->has_variable() == true);
+            CHECK((new VarExpr("123/\n\"fsdfa"))->has_variable() == true);
+            CHECK((new VarExpr("This one is one more test!"))->has_variable() == true);
+        }
+        SECTION( "AddExpr and MultExpr has_variable() tests" )
+        {
+                CHECK((new AddExpr
+                        (new NumExpr
+                                 (2), new MultExpr(
+                                new AddExpr
+                                        (new NumExpr
+                                                 (2), new NumExpr
+                                                 (99)),
+                                new VarExpr("X"))))->has_variable() == true);
+                CHECK((new AddExpr
+                        (new VarExpr("Y"), new VarExpr("Z")))->has_variable() == true);
+                CHECK_FALSE( (new AddExpr
+                        (new NumExpr
+                                 (1), new MultExpr(new NumExpr
+                                                       (5), new NumExpr
+                                                       (45))))->has_variable());
+                CHECK_FALSE( (new MultExpr(new NumExpr
+                                               (1), new MultExpr(new NumExpr
+                                                                     (21), new NumExpr
+                                                                     (-64))))->has_variable());
+                CHECK_FALSE( (new MultExpr(new NumExpr
+                                               (123), new NumExpr
+                                               (666)))->has_variable());
+                CHECK( (new MultExpr(new VarExpr("Jeepers"), new NumExpr
+                        (2)))->has_variable() == true);
+        }
+    }
+
+    TEST_CASE( "Let_has_variable_mine" )
+    {
+        SECTION("has") {
+            REQUIRE( (new LetExpr("x", new NumExpr(4), new AddExpr(new NumExpr(2), new VarExpr("x")) ))->has_variable());
+        }
+
+        SECTION("does_not_has") {
+            REQUIRE( !(new LetExpr("x", new NumExpr(4), new AddExpr(new NumExpr(2), new NumExpr(4)) ))->has_variable());
+        }
+    }
+
+
+
+
+
+int NumExpr::interp() {
+    return this->rep;
+}
+
+int AddExpr::interp() {
+    return ( this->lhs ->interp()) + (this->rhs ->interp() );
+}
+
+Val* MultExpr::interp() {
+    return (this->lhs ->interp()) * (this->rhs ->interp());
+}
+
+Val* LetExpr::interp() {
+    return this->body->subst(lhs, new NumExpr(rhs->interp()) )->interp();
+}
+
+
+        consume(in, c);
+        // call parse_keyword
+        // parse LetExpr:
+        if ( in.peek() == 'l' ) {
+            return parse_let(in);
+        }
+        // parse IfExpr:
+        else if ( in.peek() == 'i' ) {
+            return parse_if(in);
+        }
+        // parse BoolExpr:
+        else if( in.peek() == 't' ) {
+            parse_keyword(in);
+            return new BoolExpr(true);
+        }
+        else if ( in.peek() == 'f' ) {
+            parse_keyword(in);
+            return new BoolExpr(false);
+        }
+        //TODO throw invalid keywork error
+        else throw std::runtime_error("invalid input");
+
+
+
+
+        Expr *parse_multicand( std::istream &in )
+        {
+            skip_whitespace(in);
+            int c = in.peek();
+
+            if ( (c == '-') || isdigit(c) ) {
+                return parse_num(in);
+            }
+
+            // parse VarExpr:
+            else if ( isalpha(c) ) { // any ASCII value
+                return parse_var(in);
+            }
+
+            else if ( c == '_' ) {
+                consume(in, c);
+                string keyword = parse_keyword(in);
+
+                // parse LetExpr:
+                if ( keyword == "let" )
+                    return parse_let(in);
+
+                // parse IfExpr:
+                else if ( keyword == "if" )
+                    return parse_if(in);
+
+                // parse BoolExpr:
+                else if ( keyword == "true" )
+                    return new BoolExpr(true);
+                else if ( keyword == "false" )
+                    return new BoolExpr(false);
+
+                else throw std::runtime_error("invalid input");
+            }
+
+            else if ( c == '(' ) {
+                consume(in, '(');
+                Expr *e = parse_expr(in);
+                skip_whitespace(in);
+                c = in.get();
+                if (c != ')')
+                    throw std::runtime_error("missing close parenthesis");
+                return e;
+            }
+
+            else {
+                consume(in, c );
+                throw std::runtime_error("invalid input");
+            }
+        }
