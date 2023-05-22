@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/background.jpg</file>
+        <file>images/bucket.jpeg</file>
+        <file>images/cloud.png</file>
+        <file>images/water.gif</file>
+        <file>images/bigmouth.png</file>
+        <file>images/donut.png</file>
+        <file>images/donut_bg.jpg</file>
+    </qresource>
+</RCC>
