@@ -1,0 +1,19 @@
+
+Use Java to write a caching DNS resolver
+
+Listen for incoming DNS requests:
+When it receives one, it will check its local cache (a hash table),
+if it has a valid response in its cache for the query, will send a result back right away.
+
+Otherwise, it will do what we all do:
+Ask google (forward the request to Google's public DNS server at 8.8.8.8),
+store Google's response in the local cache,
+then send back the response.
+
+1st official spec: https://www.ietf.org/rfc/rfc1035.txt
+There are 2 bits which were "reserved" and required to be 0 in the version linked above.
+These are now used for the "Authentic Data" and "Checking Disabled" fields of the header.
+( Where to find them: https://www.rfc-editor.org/rfc/rfc5395#page-16 )
+
+The bytes are laid out in the order they're in in the packet ( what you'd expect );
+The bits are laid out with the MSB on the left ( what you'd expect if you treated them as a binary number written out ).
