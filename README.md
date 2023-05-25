@@ -20,4 +20,12 @@
 
 
 * [MSDScript](MSDScript)
-
+* [AndroidChatClient](AndroidChatClient)
+* [HTTP_Web_Server](HTTP_Web_Server)
+* [lite_DNS_Resolver](lite_DNS_Resolver)
+* [fighting_man_SFML](fighting_man_SFML)
+* [Synthesizer](Synthesizer)
+* [Encrypted_Filesystem](Encrypted_Filesystem)
+* [catching_donut](catching_donut)
+* [NotTheBee](NotTheBee)
+* [us-states-game](us-states-game)
