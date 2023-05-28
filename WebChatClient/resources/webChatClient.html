@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="webChatClient.css">
+    <title>Chat Room</title>
+</head>
+
+<body>
+    <h1>Chat Room</h1>
+    <p>
+        Name: <input type="text" id='txt_name'> &nbsp&nbsp&nbsp
+        Room: <input type="text" id='txt_room'>
+        <br>
+    </p>
+    <div id="parentDiv">
+        <div id="left">
+            People
+            <p id="people"> </p>
+        </div>
+        <div id="right">
+            Chat
+            <p id="chat"> </p>
+            <div id="enterText">
+                Enter you text:
+                <input type="text" id="txt_enter" maxlength="100" size="100">
+            </div>
+        </div>
+    </div>
+
+    <script src="webChatClient.js"></script>
+</body>
+
+</html>
+
