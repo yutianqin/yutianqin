@@ -3,11 +3,11 @@
 ### Graduate student at University of Utah majoring Software Development
 
 
-<!--  -->
 
 <img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
 
 <p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
+
 
 
 <p align="left">
