@@ -2,9 +2,7 @@
 <h3 align="left">A passionate graduate student from University of Utah majoring Software Development.</h3>
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif">
 
-- 🌱 I’m currently learning **Database Systems and Applications**
-
-- 📫 How to reach me **yutianqin2000@gmail.com**
+**yutianqin2000@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
