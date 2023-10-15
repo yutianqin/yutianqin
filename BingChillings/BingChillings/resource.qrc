@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/ice-cream.png</file>
+        <file>images/car.png</file>
+        <file>images/moon.png</file>
+        <file>images/sun.png</file>
+        <file>images/plane.png</file>
+        <file>images/dog.png</file>
+        <file>images/tree.png</file>
+        <file>images/heart.png</file>
+        <file>images/wheat.png</file>
+        <file>images/star.png</file>
+        <file>images/cat.png</file>
+        <file>images/monster.png</file>
+        <file>images/cake.png</file>
+        <file>images/emoji-ice-cream.png</file>
+        <file>images/party.png</file>
+        <file>images/partyface.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

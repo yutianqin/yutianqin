@@ -1,0 +1,96 @@
+[
+    {
+        "dateOfBirth": "2000-01-01",
+        "firstName": "nate",
+        "gender": "Male",
+        "lastName": "pfau",
+        "password": "4592e7b6063506ebc73b7b85ef02902e87a94b86c9af49deac52cf562874be92",
+        "profilePictureFileName": ":/images/images/plane.png",
+        "scores": [
+            700,
+            75,
+            20,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "username": "nate"
+    },
+    {
+        "dateOfBirth": "2000-01-01",
+        "firstName": "guest",
+        "gender": "Other",
+        "lastName": "guest",
+        "password": "1d707811988069ca760826861d6d63a10e8c3b7f171c4441a6472ea58c11711b",
+        "profilePictureFileName": ":/images/images/ice-cream.png",
+        "scores": [
+            700,
+            15,
+            10,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "username": "guest"
+    },
+    {
+        "dateOfBirth": "2000-01-01",
+        "firstName": "Thomas",
+        "gender": "",
+        "lastName": "Ford",
+        "password": "bd6f2ae5da92a5a90f7f692295106558f26884acaa35221c5e3f6ec586456cd2",
+        "profilePictureFileName": ":/images/images/ice-cream.png",
+        "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "username": "thom"
+    },
+    {
+        "dateOfBirth": "2000-04-25",
+        "firstName": "kdfkf",
+        "gender": "Other",
+        "lastName": "kfjf",
+        "password": "4592e7b6063506ebc73b7b85ef02902e87a94b86c9af49deac52cf562874be92",
+        "profilePictureFileName": ":/images/images/sun.png",
+        "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "username": "bob"
+    }
+]
