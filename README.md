@@ -32,23 +32,23 @@
 <tr>
 <td>
 
-- [MSDScript](MSDScript)
 - [Synthesizer](Synthesizer)
-- [AndroidChatClient](AndroidChatClient)
-- [Encrypted_Filesystem](Encrypted_Filesystem)
-- [lite_DNS_Resolver](lite_DNS_Resolver)
-- [HTTP_Web_Server](HTTP_Web_Server)
+- [MSDScript](MSDScript)
+- [Encrypted File System](Encrypted_Filesystem)
+- [Lite DNS Resolver](lite_DNS_Resolver)
+- [Android Chat Client](AndroidChatClient)
+- [HTTP Web Server](HTTP_Web_Server)
 
 </td>
 
 <td>
 
-- [Fightman](fighting_man_SFML)
+- [Android Drawing App](AndroidDrawingProject)
+- [BingChillings](BingChillings)
 - [Catch Donut!](catching_donut)
+- [Fightman](fighting_man_SFML)
 - [Not The Bee](NotTheBee)
 - [US States](us-states-game)
-- [BingChillings](BingChillings)
-- [Android Drawing App](AndroidDrawingProject)
 
 </td>
 </tr>
