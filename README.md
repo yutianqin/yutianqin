@@ -12,8 +12,6 @@
 
 **yutianqin2000@gmail.com**
 
----
-
 <h3 align="left">Languages:</h3>
 <p align="left">
     <a href="https://www.java.com" target="_blank" rel="noreferrer">
