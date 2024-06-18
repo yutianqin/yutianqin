@@ -1,21 +1,14 @@
-Yutian Qin
-
-Graduate student at University of Utah majoring Software Development
-
-
-
-<img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
-
-<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
-
-
-
+Yutian Qin yutianqin2000@gmail.com
 <p align="left">
 <a href="https://www.linkedin.com/in/yutian-qin-msd" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/yutian-qin-msd" height="30" width="40" /></a>
 </p>
+Developer | Grad student at University of Utah
 
-yutianqin2000@gmail.com
+
+<img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
+<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
+
 
 <h3 align="left">Languages:</h3>
 <p align="left">
