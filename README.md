@@ -115,49 +115,37 @@ Developer | Grad student at University of Utah
 
 
 
-<style>
-    .full-width-table {
-        width: 100%;
-    }
-    .full-width-table td {
-        width: 50%;
-    }
-</style>
-
-<table class="full-width-table">
-<tr>
-    <td rowspan="2">
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yutianqin&show_icons=true&locale=en&layout=compact" alt="yutianqin" />
-</td>
-<td colspan="2">
-
-<h3> Projects </h3>
-
-</td>
-</tr>
-<tr>
-<td>
-
-- [Synthesizer](Synthesizer)
-- [MSDScript](MSDScript)
-- [Encrypted File System](Encrypted_Filesystem)
-- [Lite DNS Resolver](lite_DNS_Resolver)
-- [Android Chat Client](AndroidChatClient)
-- [HTTP Web Server](HTTP_Web_Server)
-
-</td>
-
-<td>
-
-- [Android Drawing App](AndroidDrawingProject)
-- [BingChillings](BingChillings)
-- [Catch Donut!](catching_donut)
-- [Fightman](fighting_man_SFML)
-- [Not The Bee](NotTheBee)
-- [US States](us-states-game)
-
-</td>
-</tr>
+<table style="width: 100%;">
+    <tr>
+        <td rowspan="2" style="width: 50%;">
+            <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yutianqin&show_icons=true&locale=en&layout=compact" alt="yutianqin" />
+        </td>
+        <td colspan="2" style="width: 50%;">
+            <h3>Projects</h3>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 50%;">
+            <ul>
+                <li><a href="Synthesizer">Synthesizer</a></li>
+                <li><a href="MSDScript">MSDScript</a></li>
+                <li><a href="Encrypted_Filesystem">Encrypted File System</a></li>
+                <li><a href="lite_DNS_Resolver">Lite DNS Resolver</a></li>
+                <li><a href="AndroidChatClient">Android Chat Client</a></li>
+                <li><a href="HTTP_Web_Server">HTTP Web Server</a></li>
+            </ul>
+        </td>
+        <td style="width: 50%;">
+            <ul>
+                <li><a href="AndroidDrawingProject">Android Drawing App</a></li>
+                <li><a href="BingChillings">BingChillings</a></li>
+                <li><a href="catching_donut">Catch Donut!</a></li>
+                <li><a href="fighting_man_SFML">Fightman</a></li>
+                <li><a href="NotTheBee">Not The Bee</a></li>
+                <li><a href="us-states-game">US States</a></li>
+            </ul>
+        </td>
+    </tr>
 </table>
+
 
