@@ -10,7 +10,7 @@ Developer | Grad student at University of Utah
 <p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
 
 
-<h3 align="left">Languages:</h3>
+<h4 align="left">Languages</h4>
 <p align="left">
     <a href="https://www.java.com" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="20" height="20"/>
@@ -30,7 +30,7 @@ Developer | Grad student at University of Utah
 </p>
 
 
-<h3 align="left">Cloud Platform</h3>
+<h4 align="left">Cloud Platform</h4>
 <p align="left">
     <a href="https://www.docker.com/" target="_blank"       rel="noreferrer"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
@@ -46,7 +46,7 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h3 align="left">Frameworks and Libraries:</h3>
+<h4 align="left">Frameworks and Libraries:</h4>
 <p align="left">
     <a href="https://spring.io/" target="_blank" rel="noreferrer">
         <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
@@ -59,7 +59,7 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h3 align="left">Data Analysis and ML Libraries:</h3>
+<h4 align="left">Data Analysis and ML Libraries:</h4>
 <p align="left">
     <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
         <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> 
@@ -81,7 +81,7 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h3 align="left">Others:</h3>
+<h4 align="left">Others:</h4>
 <p align="left">
     <!-- ... rest of the tools and platforms ... -->
     <a href="https://developer.android.com" target="_blank" rel="noreferrer">
@@ -95,7 +95,7 @@ Developer | Grad student at University of Utah
 </a>
 </p>
 
-<h3 align="left">Graphics & Deisng: </h3>
+<h4 align="left">Graphics & Deisng: </h4>
 <p align="left">
     <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> 
