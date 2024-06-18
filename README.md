@@ -1,4 +1,4 @@
-# Hi😃, this is Yutian Qin
+Yutian Qin
 
 ### Graduate student at University of Utah majoring Software Development
 
