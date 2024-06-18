@@ -7,6 +7,7 @@ Developer | Grad student at University of Utah
 <img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
 <p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
 
+<\n>
 
 <p align="left"> Languages
     <a href="https://www.java.com" target="_blank" rel="noreferrer">
