@@ -115,7 +115,16 @@ Developer | Grad student at University of Utah
 
 
 
-<table>
+<style>
+    .full-width-table {
+        width: 100%;
+    }
+    .full-width-table td {
+        width: 50%;
+    }
+</style>
+
+<table class="full-width-table">
 <tr>
     <td rowspan="2">
 
