@@ -1,11 +1,12 @@
+<img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
+<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
+
 Yutian Qin | yutianqin2000@gmail.com |
 <a href="https://www.linkedin.com/in/yutianqin" target="blank">linkedin</a>
 
 Developer | Grad student at University of Utah
 
 
-<img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
-<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
 
 <\n>
 
