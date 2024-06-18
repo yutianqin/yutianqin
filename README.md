@@ -1,4 +1,4 @@
-<img align="right" alt="Coding" width="500" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
 <p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
 
 Yutian Qin | yutianqin2000@gmail.com |
