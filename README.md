@@ -1,5 +1,6 @@
 Yutian Qin | yutianqin2000@gmail.com |
 <a href="https://www.linkedin.com/in/yutianqin" target="blank">linkedin</a>
+
 Developer | Grad student at University of Utah
 
 
@@ -26,8 +27,7 @@ Developer | Grad student at University of Utah
 </p>
 
 
-<h4 align="left">Cloud Platform</h4>
-<p align="left">
+<p align="left"> Cloud Platform
     <a href="https://www.docker.com/" target="_blank"       rel="noreferrer"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="20" height="20"/> 
     </a>
@@ -42,8 +42,8 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h4 align="left">Frameworks and Libraries:</h4>
-<p align="left">
+
+<p align="left"> Frameworks and Libraries
     <a href="https://spring.io/" target="_blank" rel="noreferrer">
         <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="20" height="20"/> 
     </a>
@@ -55,8 +55,8 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h4 align="left">Data Analysis and ML Libraries</h4>
-<p align="left">
+
+<p align="left"> Data Analysis and ML Libraries
     <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
         <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="20" height="20"/> 
     </a>
@@ -77,9 +77,8 @@ Developer | Grad student at University of Utah
     </a>
 </p>
 
-<h4 align="left">Others:</h4>
-<p align="left">
-    <!-- ... rest of the tools and platforms ... -->
+
+<p align="left"> Others
     <a href="https://developer.android.com" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="20" height="20"/>
     </a>
@@ -91,8 +90,8 @@ Developer | Grad student at University of Utah
 </a>
 </p>
 
-<h4 align="left">Graphics & Deisng: </h4>
-<p align="left">
+
+<p align="left"> Graphics & Deisng
     <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="20" height="20"/> 
     </a>
