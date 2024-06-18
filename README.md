@@ -1,6 +1,6 @@
-<img align="right" alt="Coding" width="400" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 1000px;">
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" style="margin-bottom: 100px;">
 
-<p><img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
+<p><img align="right" width="450" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin" /></p>
 
 Yutian Qin | yutianqin2000@gmail.com |
 <a href="https://www.linkedin.com/in/yutianqin" target="blank">linkedin</a>
