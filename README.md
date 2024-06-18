@@ -1,5 +1,5 @@
 Yutian Qin | yutianqin2000@gmail.com |
-<a href="https://www.linkedin.com/in/yutian-qin-msd" target="blank">linkedin</a>
+<a href="https://www.linkedin.com/in/yutianqin" target="blank">linkedin</a>
 
 Developer | Grad student at University of Utah
 
