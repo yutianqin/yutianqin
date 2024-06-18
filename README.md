@@ -1,6 +1,6 @@
 Yutian Qin
 
-### Graduate student at University of Utah majoring Software Development
+Graduate student at University of Utah majoring Software Development
 
 
 
@@ -11,12 +11,11 @@ Yutian Qin
 
 
 <p align="left">
-<b>Reaching :) ->
 <a href="https://www.linkedin.com/in/yutian-qin-msd" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/yutian-qin-msd" height="30" width="40" /></a>
 </p>
 
-**yutianqin2000@gmail.com**
+yutianqin2000@gmail.com
 
 <h3 align="left">Languages:</h3>
 <p align="left">
