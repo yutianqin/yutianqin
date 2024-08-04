@@ -93,12 +93,11 @@ Developer | Grad student at University of Utah
         </p>
     </td>
     <td style="width: 70%;">
-        <table style="width: 100%;">
+        <table style="width: 100%; table-layout: fixed;>
             <tr>
                 <td colspan="2" style="width: 100%;">
-                    <div style="display: flex; align-items: center;">
-                        <h3 style="margin: 0;">Projects</h3>
-                        <img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" alt="Coding" style="height: 25px; margin-left: 10px; object-fit: cover; width: 100%;">
+                    <div style="display: flex; align-items: left;">
+                        <h3 style="margin: 0;">Projects <img src="https://media.tenor.com/-UygBh3nnfEAAAAC/coding.gif" alt="Coding" style="height: 25px; margin-left: 10px; object-fit: cover; flex-grow: 1;"></h3>
                     </div>
                 </td>
             </tr>
