@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress-Up Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="character-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+        <div id="clothes-container">
+            <!-- Thumbnails of clothes -->
+            <img src="src/shirt.png" class="clothes" draggable="true" ondragstart="drag(event)" id="shirt1">
+            <img src="src/pants.png" class="clothes" draggable="true" ondragstart="drag(event)" id="pants1">
+            <!-- Add more clothes as needed -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
