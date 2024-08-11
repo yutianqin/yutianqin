@@ -1,5 +1,5 @@
 
-Yutian Qin | <a href="mailto:yutianqin2000@gmail.com">yutianqin2000@gmail.com</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
+<a href="https://yutianqin.github.io">Yutian Qin</a> | <a href="mailto:yutianqin2000@gmail.com">yutianqin2000@gmail.com</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
 Developer | Grad student at University of Utah
 
 
