@@ -1,9 +1,8 @@
 
-Yutian Qin | <a href="mailto:yutianqin2000@gmail.com">yutianqin2000@gmail.com</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
+Yutian Qin | <a href="mailto:yutian.qin@sci.utah.edu">yutian.qin@sci.utah.edu</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
 Developer | IT Specialist at Scientific Computing and Imaging Institute at the University of Utah
 
-
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <td style="width: 49%;">
         <p align="left"> Languages
             <a href="https://www.java.com" target="_blank" rel="noreferrer">
@@ -125,7 +124,7 @@ Developer | IT Specialist at Scientific Computing and Imaging Institute at the U
             </tr>
         </table>
     </td>
-</table>
+</table> -->
 
 
 ---
