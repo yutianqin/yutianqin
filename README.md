@@ -1,5 +1,5 @@
 
-Yutian Qin | <a href="mailto:yutian.qin@utah.edu">yutian.qin@sci.utah.edu</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
+Yutian Qin | <a href="mailto:yutian.qin@utah.edu">yutian.qin@utah.edu</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
 Developer | IT Specialist at Scientific Computing and Imaging Institute at the University of Utah
 
 ---
