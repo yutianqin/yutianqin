@@ -1,6 +1,6 @@
 
 Yutian Qin | <a href="mailto:yutian.qin@utah.edu">yutian.qin@utah.edu</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> <br>
-Developer | IT Specialist at Scientific Computing and Imaging Institute at the University of Utah
+Developer | <a href="https://www.sci.utah.edu/people/yutian.qin.html" target="_blank">IT Specialist</a> at Scientific Computing and Imaging Institute at the University of Utah
 
 ---
 
@@ -12,5 +12,3 @@ Developer | IT Specialist at Scientific Computing and Imaging Institute at the U
         <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=yutianqin&" alt="yutianqin"/>
     </td>
 </table> -->
-
-<!-- --- -->
