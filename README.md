@@ -1,6 +1,7 @@
 
-<a href="mailto:yutian.qin@utah.edu">yutian.qin@utah.edu</a> | <a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a> | 
-<a href="https://www.sci.utah.edu/people/yutian.qin.html" target="_blank">IT Specialist</a>
+<a href="https://www.sci.utah.edu/people/yutian.qin.html" target="_blank">IT Specialist</a> |
+<a href="https://www.linkedin.com/in/yutianqin" target="_blank">linkedin</a>
+<!-- <a href="mailto:yutian.qin@utah.edu">yutian.qin@utah.edu</a> -->
 
 ---
 
